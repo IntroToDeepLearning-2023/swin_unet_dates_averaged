@@ -1,4 +1,4 @@
-# Crop Type Segmentation with Swin Transformer 🛰️
+# Crop Type Segmentation with Swin Unet Transformer 🛰️
 
 This repository contains the code for training a crop type segmentation model using the Swin Transformer architecture. The model is designed for segmentation tasks on remote sensing data, specifically for classifying different crop types in satellite imagery.
 ...

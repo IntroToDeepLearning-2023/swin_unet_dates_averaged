@@ -3,21 +3,11 @@
 This repository contains the code for training a crop type segmentation model using the Swin Transformer architecture. The model is designed for segmentation tasks on remote sensing data, specifically for classifying different crop types in satellite imagery.
 ...
 
-## 1. Table of Contents
-
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Dataset](#dataset)
-- [Usage](#usage)
-- [Training](#training)
-- [Results](#results)
-- [License](#license)
-
-## 2. Overview
+##  Overview
 
 The project uses the Swin Transformer architecture for crop type segmentation. The model is implemented using PyTorch and trained using a custom dataset. The training script logs metrics and results to WandB for easy tracking and visualization.
 
-## 3. Requirements
+## 1. Requirements
 
 - Python 3.6 or later
 - PyTorch
@@ -30,11 +20,11 @@ Install dependencies:
 pip install -r requirements.txt`
 ```
 
-## 4. Dataset
+## 2. Dataset
 
 The dataset used for training is the SustainBenchDataset, and it is loaded using the CropTypeMappingDataset class. Ensure you have the dataset available or replace it with your custom dataset.
 
-## 5. Usage
+## 3. Usage
 
 Clone the repository:
 
@@ -49,14 +39,14 @@ Install dependencies:
 
 2. Configure your training parameters in the script.
 
-## 6. Training
+## 4. Training
 
 Run the training script:
 
 `python train.py`
 The script logs metrics, loss, and accuracy to WandB for easy monitoring.
 
-## 7. Results
+## 5. Results
 
 The trained model and evaluation results can be found in the models/ directory. The best-performing model is saved as best.pth. You can load this model for inference or continue training.
 
@@ -64,7 +54,7 @@ Important Note:
 
 This is a general overview of the visualization process.
 
-## 8. Contributors
+## 6. Contributors
 
 - **Deo Uwimpuhwe**
   - Program: MECE 2024
